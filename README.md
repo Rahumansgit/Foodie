@@ -12,7 +12,7 @@ Showcases menu sections, scroll animations, and a modern UI/UX experience.
 
 ## Demo / Screenshot
 
-![Foodie Demo Screenshot](img/screenshot.png)  
+![Foodie-Home Demo Screenshots](img/screenshot_home.png) ![Foodie-Menu Demo Screenshots](img/screenshot_menu.png)  ![Foodie-Offer Demo Screenshots](img/screenshot_offer.png)  ![Foodie-About Demo Screenshots](img/screenshot_about.png)
 
 Live site: [ar-foodie.vercel.app](https://ar-foodie.vercel.app/)  
 
