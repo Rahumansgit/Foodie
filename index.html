@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie</title>
+    <link rel="icon" href="./img/logo-small.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Luckiest+Guy&family=My+Soul&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+
+</head>
+
+
+<body>
+
+    <div class="main">
+
+        <nav class="header">
+
+            <div class="logo">
+                <img src="./img/logo.png" alt="Logo">
+            </div>
+
+            <div class="menu-btn">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#offer">Offer</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="profile-container">
+                <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+                    <ion-icon name="moon-outline"></ion-icon>
+                </button>
+                <div class="profile">
+                    <img src="./img/profile.jpg" class="profile-img">
+                    <h5 class="profile-name">Bijil Robertson</h5>
+                    <ion-icon class="profile-btn" name="caret-down-outline"></ion-icon>
+                </div>
+            </div>
+
+        </nav>
+        <div class="overlay"></div>
+        <div class="profile-details">
+            <ul>
+                <li><ion-icon name="newspaper"></ion-icon>Order History</li>
+                <li><ion-icon name="settings"></ion-icon>Settings</li>
+                <li><ion-icon name="log-out"></ion-icon>Log out</li>
+            </ul>
+        </div>
+
+        <!-- home -->
+
+        <section class="home swiper" id="home">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide container" id="container">
+                    <div class="home-text">
+                        <h1><span class="span-1">#We are FOODIE</span> <br>
+                            Delicious Meals <br>
+                            <span class="span-2"> Delivered Fast </span>
+                        </h1>
+
+                        <h4>Craving something delicious? Get your favorite <span>Veg Pasta</span></h4>
+                        <a href="#" class="order-btn">Order Now <ion-icon name="arrow-forward-outline"></ion-icon></a>
+                        <a href="#" class="offer-btn">View Offer</a>
+                    </div>
+
+                    <img src="./img/label-4-tr.png" class="label">
+
+                </div>
+
+                <div class="swiper-slide container" id="container">
+                    <div class="home-text">
+                        <h1><span class="span-1">#We are FOODIE</span> <br>
+                            Delicious Meals <br>
+                            <span class="span-2"> Delivered Fast </span>
+                        </h1>
+
+                        <h4>Craving something delicious? Get your favorite <span>BeefSteak</span></h4>
+                        <a href="#" class="order-btn">Order Now <ion-icon name="arrow-forward-outline"></ion-icon></a>
+                        <a href="#" class="offer-btn">View Offer</a>
+                    </div>
+
+                    <img src="./img/label-3-tr.png" class="label">
+
+                </div>
+
+
+                <div class="swiper-slide container" id="container">
+                    <div class="home-text">
+                        <h1><span class="span-1">#We are FOODIE</span> <br>Delicious Meals<br>
+                            <span class="span-2">Delivered Fast</span>
+                        </h1>
+
+                        <h4>Craving something delicious? Get your favorite<span> Chicken With Fries</span></h4>
+                        <a href="#" class="order-btn">Order Now<ion-icon name="arrow-forward-outline"></ion-icon></a>
+                        <a href="#" class="offer-btn">View Offer</a>
+                    </div>
+
+                    <img src="./img/label-2-tr.png" class="label">
+
+                </div>
+
+                <div class="swiper-slide container" id="container">
+                    <div class="home-text">
+                        <h1><span class="span-1">#We are FOODIE</span> <br>Delicious Meals<br>
+                            <span class="span-2">Delivered Fast</span>
+                        </h1>
+
+                        <h4>Craving something delicious? Get your favorite<span> Spanish Shark</span></h4>
+                        <a href="#" class="order-btn">Order Now<ion-icon name="arrow-forward-outline"></ion-icon></a>
+                        <a href="#" class="offer-btn">View Offer</a>
+                    </div>
+
+                    <img src="./img/label-1-tr.png" class="label">
+
+                </div>
+
+
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </section>
+
+        <!--Menu-->
+
+        <section class="menu" id="menu">
+
+            <div class="menu-header" data-aos="fade-up">
+                <h1>Our Menu</h1>
+                <h4>Discover our carefully curated selection of delicious meals, prepared fresh and <br>delivered hot to
+                    your doorstep.</h4>
+            </div>
+            <div class="searchbar" data-aos="fade-up" data-aos-delay="100">
+                <ion-icon name="funnel-outline"></ion-icon>
+                <input type="search" placeholder="Search menu items...">
+            </div>
+            <div class="menu-items">
+
+                <div class="item-box" data-aos="fade-up" data-aos-delay="0">
+                    <div class="item-img"><img src="./img/dish-1.jpeg"></div>
+                    <h2>Chicken Pizza<span>$24.99</span></h2>
+                    <h5>Chicken with flavorful tomato sauce, melted mozzarella cheese.</h5>
+                    <div class="star"><ion-icon name="star"></ion-icon>
+                        <p>4.3 (123)</p>
+                    </div>
+                    <button type="button"><ion-icon name="add-outline"></ion-icon> Add To Cart</button>
+                </div>
+
+                <div class="item-box" data-aos="fade-up" data-aos-delay="100">
+                    <div class="item-img"><img src="./img/dish-2.jpg"></div>
+                    <h2>BBQ Burger<span>$19.99</span></h2>
+                    <h5>Featuring a flame-grilled beef pattyand crunchy onion rings on a brioche bun.</h5>
+                    <div class="star"><ion-icon name="star"></ion-icon>
+                        <p>4.5 (369)</p>
+                    </div>
+                    <button type="button"><ion-icon name="add-outline"></ion-icon> Add To Cart</button>
+                </div>
+
+                <div class="item-box" data-aos="fade-up" data-aos-delay="200">
+                    <div class="item-img"><img src="./img/dish-3.jpg"></div>
+                    <h2>French Fries<span>$9.99</span></h2>
+                    <h5>Perfectly seasoned French fries are fried to a crispy perfection.</h5>
+                    <div class="star"><ion-icon name="star"></ion-icon>
+                        <p>3.8 (587)</p>
+                    </div>
+                    <button type="button"><ion-icon name="add-outline"></ion-icon> Add To Cart</button>
+                </div>
+
+                <div class="item-box" data-aos="fade-up" data-aos-delay="300">
+                    <div class="item-img"><img src="./img/dish-4.jpg"></div>
+                    <h2>Crispy Chicken<span>$22.99</span></h2>
+                    <h5>Juicy Signature Fried Chicken and spices for that unmistakable taste.</h5>
+                    <div class="star"><ion-icon name="star"></ion-icon>
+                        <p>4.5 (348)</p>
+                    </div>
+                    <button type="button"><ion-icon name="add-outline"></ion-icon> Add To Cart</button>
+                </div>
+
+                <div class="item-box" data-aos="fade-up" data-aos-delay="400">
+                    <div class="item-img"><img src="./img/dish-6.png"></div>
+                    <h2>Paneer Manchurian<span>$14.99</span></h2>
+                    <h5>Crispy golden paneer cubes with sweet, spicy, and tangy flavors.</h5>
+                    <div class="star"><ion-icon name="star"></ion-icon>
+                        <p>4.4 (258)</p>
+                    </div>
+                    <button type="button"><ion-icon name="add-outline"></ion-icon> Add To Cart</button>
+                </div>
+
+                <div class="item-box" data-aos="fade-up" data-aos-delay="500">
+                    <div class="item-img"><img src="./img/dish-5.jpeg"></div>
+                    <h2>Chicken 65<span>$17.99</span></h2>
+                    <h5>A flavor bomb of crispy, deep-fried chicken marinated in a robust medley of spices.</h5>
+                    <div class="star"><ion-icon name="star"></ion-icon>
+                        <p>4.0 (690)</p>
+                    </div>
+                    <button type="button"><ion-icon name="add-outline"></ion-icon> Add To Cart</button>
+                </div>
+
+                <div class="item-box">
+                    <div class="item-img"><img src="./img/dish-7.jpg"></div>
+                    <h2>Veg-Noodles<span>$11.99</span></h2>
+                    <h5>seasonal vegetables and creating a delightful and satisfying meal.</h5>
+                    <div class="star"><ion-icon name="star"></ion-icon>
+                        <p>3.8 (147)</p>
+                    </div>
+                    <button type="button"><ion-icon name="add-outline"></ion-icon> Add To Cart</button>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--Offer-->
+
+        <section class="offer" id="offer">
+            <div class="offer-header" data-aos="fade-up">
+                <h1>Special Offers</h1>
+                <h4>Save more on your favorite meals with our exclusive deals and promotional offers. New<br>discounts
+                    added regularly!</h4>
+            </div>
+
+            <div class="offer-text" data-aos="fade-up" data-aos-delay="100">
+                <h2>Current Deals</h2>
+                <p>Don't miss out on these amazing savings opportunities</p>
+            </div>
+            <div class="offer-list">
+                <div class="offer-list-container" data-aos="fade-up" data-aos-delay="0">
+                    <div class="offer-name">
+                        <div class="offer-name-1">
+                            <ion-icon name="gift-outline"></ion-icon>
+                            <h3>First Order Special</h3>
+                        </div>
+                        <p>50% OFF</p>
+                    </div>
+
+                    <p>Get 50% off your first order with us</p>
+
+                    <div class="offer-details">
+                        <div class="d-1">
+                            <p>Promo Code:</p><span>FIRST50</span>
+                        </div>
+                        <div class="d-2">
+                            <p>Min. Order:</p><span>$15</span>
+                        </div>
+                        <div class="d-3">
+                            <p>Valid Until:</p><span>Limited time</span>
+                        </div>
+                    </div>
+
+                    <button>Copy code & Order Now</button>
+                </div>
+
+                <div class="offer-list-container" data-aos="fade-up" data-aos-delay="100">
+                    <div class="offer-name">
+                        <div class="offer-name-1">
+                            <ion-icon name="ribbon-outline"></ion-icon>
+                            <h3>Free Delivery Weekend</h3>
+                        </div>
+                        <p>FREE DELIVERY</p>
+                    </div>
+
+                    <p>Free delivery on all orders this weekend</p>
+
+                    <div class="offer-details">
+                        <div class="d-1">
+                            <p>Promo Code:</p><span>WEEKEND</span>
+                        </div>
+                        <div class="d-2">
+                            <p>Min. Order:</p><span>$10</span>
+                        </div>
+                        <div class="d-3">
+                            <p>Valid Until:</p><span>This Weekend</span>
+                        </div>
+                    </div>
+
+                    <button>Copy code & Order Now</button>
+                </div>
+
+                <div class="offer-list-container" data-aos="fade-up" data-aos-delay="200">
+                    <div class="offer-name">
+                        <div class="offer-name-1">
+                            <ion-icon name="fast-food-outline"></ion-icon>
+                            <h3>Big Order Bonus</h3>
+                        </div>
+                        <p>$10 OFF</p>
+                    </div>
+
+                    <p>Save $10 on orders over $50</p>
+
+                    <div class="offer-details">
+                        <div class="d-1">
+                            <p>Promo Code:</p><span>BIG10</span>
+                        </div>
+                        <div class="d-2">
+                            <p>Min. Order:</p><span>$50</span>
+                        </div>
+                        <div class="d-3">
+                            <p>Valid Until:</p><span>Dec 31, 2025</span>
+                        </div>
+                    </div>
+
+                    <button>Copy code & Order Now</button>
+                </div>
+
+                <div class="offer-list-container" data-aos="fade-up" data-aos-delay="300">
+                    <div class="offer-name">
+                        <div class="offer-name-1">
+                            <ion-icon name="people-outline"></ion-icon>
+                            <h3>Student Discount</h3>
+                        </div>
+                        <p>20% OFF</p>
+                    </div>
+
+                    <p>20% off for verified students</p>
+
+                    <div class="offer-details">
+                        <div class="d-1">
+                            <p>Promo Code:</p><span>STUDENT20</span>
+                        </div>
+                        <div class="d-2">
+                            <p>Min. Order:</p><span>$20</span>
+                        </div>
+                        <div class="d-3">
+                            <p>Valid Until:</p><span>Ongoing</span>
+                        </div>
+                    </div>
+
+                    <button>Copy code & Order Now</button>
+                </div>
+
+            </div>
+
+            <div class="offer-terms" data-aos="fade-up" data-aos-delay="50">
+                <h3>Terms & Conditions</h3>
+                <ul>
+                    <li>Promotional codes cannot be combined with other offers unless specified</li>
+
+                    <li>Offers are valid for a limited time and may be withdrawn without notice</li>
+
+                    <li>Minimum order values apply before taxes and fees</li>
+
+                    <li>New customer offers are limited to first-time Foodie users</li>
+
+                    <li>Student discounts require valid student ID verification</li>
+
+                    <li>Foodie points expire after 12 months of account inactivity</li>
+
+                    <li>Foodie reserves the right to modify or cancel promotions at any time</li>
+                </ul>
+            </div>
+
+        </section>
+
+        <!--About-->
+
+        <section class="about" id="about">
+
+            <div class="about-header" data-aos="fade-up">
+                <h1>About Foodie</h1>
+                <h4>We're passionate about connecting people with great food. Founded in 2020, Foodie<br>has grown to
+                    become the trusted choice for food delivery in our community.</h4>
+            </div>
+
+            <div class="about-detials">
+                <div class="about-story" data-aos="fade-right">
+                    <h3>Our Story</h3>
+                    <p>Foodie was born from a simple idea: great food should be accessible to everyone, delivered
+                        quickly and reliably. What started as a small local delivery service has evolved into a
+                        comprehensive platform connecting food lovers with their favorite restaurants.<br><br>
+
+                        Our team of dedicated professionals works around the clock to ensure that every order meets our
+                        high standards. We believe that food delivery isn't just about convenience – it's about bringing
+                        people together around meals they love.<br><br>
+
+                        Today, we're proud to serve thousands of customers and partner with hundreds of restaurants,
+                        always with the same commitment to quality and speed that defined us from day one.</p>
+                </div>
+
+                <div class="review" data-aos="fade-left">
+                    <span id="r-1">
+                        50K+<br>
+                        Happy Customers
+                    </span>
+
+                    <span id="r-2">
+                        500+<br>
+                        Restaurant Partners
+                    </span>
+
+                    <span id="r-3">
+                        30 min<br>
+                        Average Delivery Time
+                    </span>
+
+                    <span id="r-4">
+                        4.8/5<br>
+                        Customer Rating
+                    </span>
+
+                </div>
+            </div>
+
+            <div class="about-mission" data-aos="fade-up">
+                <h2>Our Mission</h2>
+                <p>To revolutionize food delivery by creating meaningful connections between customers, restaurants, and
+                    delivery<br>partners while maintaining the highest standards of quality, speed, and customer
+                    satisfaction.</p>
+                <div class="mission-box">
+                    <p>"Every meal delivered is an opportunity to make someone's day better. That's<br>the Foodie
+                        difference."</p>
+                    <span><i>— The Foodie Team</i></span>
+                </div>
+            </div>
+
+        </section>
+
+        <!--Contact-->
+
+        <section class="contact" id="contact">
+
+            <div class="foodie" data-aos="fade-up">
+                <div class="logo">
+                    <img src="./img/logo.png" alt="Logo">
+                </div>
+                <p>Delicious meals delivered fast to your doorstep. Fresh ingredients, expert preparation, and
+                    lightning-fast delivery</p>
+                <div class="icons">
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                </div>
+            </div>
+
+            <div class="quick-links" data-aos="fade-up" data-aos-delay="100">
+                <ul>
+                    <li>Quick Links</li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#offer">Offer</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </div>
+
+            <div class="legal" data-aos="fade-up" data-aos-delay="200">
+                <ul>
+                    <li>Legal</li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="contact-info" data-aos="fade-up" data-aos-delay="300">
+                <ul>
+                    <li>Contact Info</li>
+                    <li><span><ion-icon name="pin-outline"></ion-icon></span> 123 Food Street<br>Delivery City, DC 12345
+                    </li>
+                    <li><span><ion-icon name="call-outline"></ion-icon></span> +91 12345 69870</li>
+                    <li><span><ion-icon name="mail-outline"></ion-icon></span> hello@foodie.com</li>
+                </ul>
+            </div>
+
+        </section>
+
+        <div class="copyright">
+            <p>© 2025 Foodie Delivery. All rights reserved.</p>
+        </div>
+
+    </div>
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+
+</html>
