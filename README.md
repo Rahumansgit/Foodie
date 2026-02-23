@@ -12,34 +12,11 @@ Showcases menu sections, scroll animations, and a modern UI/UX experience.
 
 ## Demo / Screenshot
 
+🌐Live site: [ar-foodie.vercel.app](https://ar-foodie.vercel.app/)  
+
+
 ![Foodie-Home Demo Screenshots](img/screenshot_home.png) ![Foodie-Menu Demo Screenshots](img/screenshot_menu.png)  ![Foodie-Offer Demo Screenshots](img/screenshot_offer.png)  ![Foodie-About Demo Screenshots](img/screenshot_about.png)
 
-Live site: [ar-foodie.vercel.app](https://ar-foodie.vercel.app/)  
-
-
-## Project Structure
-
-
-
-Foodie/
-
-├── img/                    # images / assets (food photos, logos, backgrounds)
-
-├── index.html              # main HTML markup
-
-├── style.css               # styles / layout / responsive rules
-
-└── script.js                # JavaScript for animations, scroll handling
-
-
-
-### File Descriptions
-
-- **index.html** — main web page structure  
-- **style.css** — visual styling, responsive rules, animations  
-- **script.js** — logic for scroll animations, element reveals, menu toggles  
-- **img/** — all images used in the site  
-- (Potentially other supporting files, e.g. favicon, config files, etc.)
 
 ---
 
